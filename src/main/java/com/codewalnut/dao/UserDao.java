@@ -4,7 +4,10 @@ import com.codewalnut.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * Created by KelvinZ on 2018-09-14 19:11.
+ * 数据访问类
+ *
+ * @author KelvinZ
+ * @date 2018-09-14 19:11.
  */
 public interface UserDao extends JpaRepository<User, String> {
 }

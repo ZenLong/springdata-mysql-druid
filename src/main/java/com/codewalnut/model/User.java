@@ -6,7 +6,10 @@ import javax.persistence.Table;
 import java.util.Date;
 
 /**
- * Created by KelvinZ on 2018-09-14 19:01.
+ * 用户实体
+ *
+ * @author KelvinZ
+ * @date 2018-09-14
  */
 @Entity
 @Table(name = "user_test")

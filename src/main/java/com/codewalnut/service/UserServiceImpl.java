@@ -8,7 +8,10 @@ import org.springframework.stereotype.Service;
 import java.util.Optional;
 
 /**
- * Created by KelvinZ on 2018-09-14 19:13.
+ * 用户服务默认实现类
+ *
+ * @author KelvinZ
+ * @date 2018-09-14 19:13.
  */
 @Service
 public class UserServiceImpl implements UserService {
