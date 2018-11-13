@@ -57,6 +57,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- 异步日志依赖包 -->
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+
         <!--日志-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
