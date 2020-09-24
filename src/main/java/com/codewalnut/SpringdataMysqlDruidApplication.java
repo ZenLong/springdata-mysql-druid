@@ -9,10 +9,9 @@ import org.springframework.context.annotation.PropertySources;
  * 项目启动类
  *
  * @author KelvinZ
- * @date 2018-09-14 19:12.
  */
 @SpringBootApplication
-@PropertySources(value = {@PropertySource(value = "${config.folder}application-druid.properties")})
+@PropertySources(value = {@PropertySource(value = "classpath:application-druid-${spring.profiles.active}.properties")})
 public class SpringdataMysqlDruidApplication {
 
     public static void main(String[] args) {

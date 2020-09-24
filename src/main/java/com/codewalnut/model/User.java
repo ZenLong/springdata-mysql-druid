@@ -1,18 +1,18 @@
 package com.codewalnut.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
 
 /**
- * 用户实体
+ * 用户实体，对应数据库中的一个表
  *
  * @author KelvinZ
- * @date 2018-09-14
  */
 @Entity
-@Table(name = "user_test")
+@Table(name = "druid_demo_user")
 public class User {
     @Id
     private String id;

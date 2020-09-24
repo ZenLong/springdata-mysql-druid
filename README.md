@@ -1,5 +1,5 @@
-## 一个最简单的SpringBoot继承Alibaba Druid的示例项目
-除了Druid意外，还使用了：
+## 一个最小化实现的Alibaba Druid的示例项目
+除了Druid之外，还使用了：
  
 - SpringData Jpa
 - Log4j2

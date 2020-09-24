@@ -6,7 +6,7 @@
     <!-- 变量配置 -->
     <Properties>
         <Property name="APP_NAME">springdata-mysql-druid</Property>
-        <Property name="LOG_HOME">./logs</Property>
+        <Property name="LOG_HOME">logs</Property>
         <Property name="FILE_LOG_PATTERN">%d %-5level [%t] %c : %msg%n</Property>
         <!--在控制台下显示彩色日志-->
         <Property name="CONSOLE_LOG_PATTERN">%d %highlight{%5level}{FATAL=yellow, ERROR=red, WARN=red, INFO=blue,

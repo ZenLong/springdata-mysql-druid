@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /druid
+  port: 8080
+  compression:
+    enabled: true
+
+spring:
+  profiles:
+    active: dev
+  main:
+    banner-mode: off
+  jpa:
+    open-in-view: true
